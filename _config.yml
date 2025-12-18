@@ -29,7 +29,7 @@ plugins:
 
 author:
   name   : "Khalid Oqaidi"
-  avatar : "/assets/images/Oqaidi_Photo.JPG"  
+  avatar : "/oqaidi-portfolio/assets/images/Oqaidi_Photo.JPG"  
   bio    : "PhD in AI & Data Science | Building intelligent solutions for research and industry."
   links:
     - label: "LinkedIn"
@@ -43,7 +43,7 @@ author:
       url: "https://scholar.google.com/citations?hl=en&user=kZHsOzEAAAAJ"
     - label: "CV"
       icon: "fas fa-fw fa-file-alt"
-      url: "/assets/docs/Oqaidi_Resumee.pdf"  
+      url: "/oqaidi-portfolio/assets/docs/Oqaidi_Resumee.pdf"  
 
 footer:
   links:
