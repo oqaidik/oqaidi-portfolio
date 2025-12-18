@@ -1,0 +1,82 @@
+title: "Khalid Oqaidi"
+email: khalid.oqaidi@gmail.com
+description: >-
+  AI Researcher, Professor, and Data Scientist – Specializing in deep learning,
+  predictive modeling, and applied machine learning.
+twitter_username: ""
+github_username: oqaidik
+minimal_mistakes_skin: default
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/Berlin
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Khalid Oqaidi"
+  avatar : "/assets/images/Oqaidi_Photo.jpg"  
+  bio    : "PhD in AI & Data Science | Building intelligent solutions for research and industry."
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/khalid-oqaidi-b8b37740/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/oqaidik/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=kZHsOzEAAAAJ"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/assets/docs/Oqaidi_Resumee.pdf"  
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/khalid-oqaidi-b8b37740/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/oqaidik"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
