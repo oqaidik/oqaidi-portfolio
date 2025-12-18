@@ -29,7 +29,7 @@ plugins:
 
 author:
   name   : "Khalid Oqaidi"
-  avatar : "/assets/images/Oqaidi_Photo.jpg"  
+  avatar : "/assets/images/Oqaidi_Photo.JPG"  
   bio    : "PhD in AI & Data Science | Building intelligent solutions for research and industry."
   links:
     - label: "LinkedIn"
